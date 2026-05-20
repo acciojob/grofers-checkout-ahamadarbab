@@ -11,7 +11,7 @@ const getSum = () => {
 	}
 
 	// get all price cells
-	let prices = document.querySelectorAll(".price");
+	let prices = document.querySelectorAll(".prices");
 	let total = 0;
 	
 	prices.forEach((price) => {
