@@ -5,7 +5,7 @@ document.body.appendChild(getSumBtn);
 const getSum = () => {
 
 	// remove old total row if already present
-	const oldRow = document.getElementById("total-Row");
+	const oldRow = document.getElementById("ans");
 	if(oldRow) {
 		oldRow.remove();
 	}
@@ -20,7 +20,7 @@ const getSum = () => {
 
 	// create new row
 	let totalRow = document.createElement("tr");
-	totalRow.id = "total-Row";
+	totalRow.id = "ans";
 	
 	// create new cell
 	let priceCell = document.createElement("td");
